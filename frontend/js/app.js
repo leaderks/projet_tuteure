@@ -23,9 +23,12 @@ function showRegisterForm() {
     <input id="email" type="email" class="form-control my-2" placeholder="Email">
 
     <select id="role" class="form-control my-2">
-      <option value="">--Rôle--</option>
-      <option value="administrateur">Administrateur</option>
-      <option value="utilisateur">Utilisateur</option>
+      <option value="">--fonction--</option>
+      <option value="agriculteur">Agriculteur</option>
+      <option value="fournisseur">Fournisseur</option>
+      <option value="acheteur">Acheteur</option>
+      <option value="vendeur">Vendeur</option>
+      <option value="conseiller">Conseiller agricole</option>
     </select>
 
     <input id="password" type="password" class="form-control my-2" placeholder="Mot de passe">
@@ -67,7 +70,7 @@ function login() {
     if (data.status === 'success') {
         if (data.role === 'administrateur') {
           window.location.href = 'frontend/dashboard_admin.html';
-        } else if (data.role === 'utilisateur') {
+        } else if (data.role === 'acheteur' || data.role === 'agriculteur' || data.role === 'fournisseur' || data.role === 'conseiller' || data.role === 'vendeur') {
           if (data.etat_user === 1) {
             errorDiv.textContent = "Accès refusé : votre compte est désactivé.";
           } else {
