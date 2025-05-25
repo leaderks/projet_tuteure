@@ -68,8 +68,12 @@ function login() {
         if (data.role === 'administrateur') {
           window.location.href = 'frontend/dashboard_admin.html';
         } else if (data.role === 'utilisateur') {
-          window.location.href = 'frontend/dashboard_user.html';
-        } else {
+          if (data.etat_user === 1) {
+            errorDiv.textContent = "Accès refusé : votre compte est désactivé.";
+          } else {
+            window.location.href = 'frontend/dashboard_user.html';
+          }
+        }else {
           errorDiv.textContent = "Rôle inconnu.";
         }
       } else {
