@@ -8,6 +8,9 @@ switch ($page) {
     case 'blog':
         require __DIR__ . '/views/blog.php';
         break;
+    case 'produit':
+        require __DIR__ . '/views/produit.php';
+        break;
     default:
         require __DIR__ . '/views/home.php';
         break;

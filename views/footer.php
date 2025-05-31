@@ -25,11 +25,15 @@
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- vendors JS Files -->
-  <script src="/mvc/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/mvc/assets/vendors/aos/aos.js"></script>
+  <script src="/projet_tuteure/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/projet_tuteure/assets/vendors/aos/aos.js"></script>
+  <script src="assets/js/product.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+
 
   <!-- Main JS File -->
-  <script src="/mvc/assets/js/main.js"></script>
+ <script src="/projet_tuteure/assets/js/product.js"></script>
+  <script src="/projet_tuteure/assets/js/main.js"></script>
 
 </body>
 
