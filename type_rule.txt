@@ -1,0 +1,71 @@
+🧩 Fonctionnalités minimales du dashboard Admin
+1. Gestion des utilisateurs
+✅ Voir la liste des utilisateurs (tous rôles confondus)
+
+✅ Filtrer par rôle (Agriculteurs, Fournisseurs, Ouvriers, etc.)
+
+✅ Rechercher un utilisateur
+
+✅ Activer / désactiver un utilisateur
+
+✅ Modifier les informations d’un utilisateur
+
+✅ Supprimer un utilisateur
+
+2. Gestion des annonces officielles
+✅ Créer une annonce
+
+✅ Modifier ou supprimer une annonce
+
+✅ Planifier ou publier une annonce immédiatement
+
+✅ Voir les statistiques de consultation des annonces
+
+3. Modération des contenus
+✅ Voir les produits postés par les fournisseurs/agriculteurs
+
+✅ Valider / refuser un produit posté
+
+✅ Supprimer un contenu inapproprié
+
+✅ Recevoir des signalements de contenus
+
+4. Gestion des offres et demandes d'emploi
+✅ Voir les offres d’emploi postées par les agriculteurs
+
+✅ Voir les recherches d’emploi des ouvriers
+
+✅ Valider / rejeter une offre d’emploi si nécessaire
+
+✅ Statistiques sur les demandes/offres d’emploi
+
+5. Gestion des formations et conseils
+✅ Voir les formations proposées par les conseillers agricoles
+
+✅ Publier ou modérer une formation
+
+✅ Ajouter des ressources officielles (documents PDF, vidéos)
+
+6. Statistiques générales
+✅ Nombre total d’utilisateurs par rôle
+
+✅ Nombre de produits postés
+
+✅ Nombre de commandes passées
+
+✅ Activité sur les offres d’emploi
+
+✅ Nombre de formations publiées
+
+7. Messagerie / Assistance
+✅ Recevoir les messages ou requêtes des utilisateurs
+
+✅ Répondre ou transférer à un conseiller/agriculteur concerné
+
+8. Paramètres / Configuration
+✅ Gérer les catégories de produits
+
+✅ Gérer les types de formations
+
+✅ Gérer les rôles et droits d'accès (si besoin de granularité plus fine)
+
