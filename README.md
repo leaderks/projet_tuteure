@@ -4,3 +4,7 @@ Liste des participants :
  - AGUEDE  Lea
  - ETOCK  Arianne
  - DOUANLA  Junior
+
+Nb: 
+- login admin : admin@gmail.com
+- password admin : Ajour2@
