@@ -20,6 +20,18 @@ switch ($page) {
     case 'produit':
         require __DIR__ . '/views/produit.php';
         break;
+    case 'formations':
+        require __DIR__ . '/views/formations.php';
+        break;
+    case 'offres':
+        require __DIR__ . '/views/offres.php';
+        break;
+    case 'annonces':
+        require __DIR__ . '/views/annonces.php';
+        break;
+    case 'profil':
+        require __DIR__ . '/views/profil.php';
+        break;
     default:
         require __DIR__ . '/views/home.php';
         break;

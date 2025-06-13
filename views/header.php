@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -33,6 +34,15 @@
           <li><a href="./">Accueil</a></li>
           <li><a href="./?page=blog">Blog</a></li>
           <li><a href="./?page=produit">Produit</a></li>
+          <li><a href="./?page=formations">formations</a></li>
+          <li><a href="./?page=offres">Offres d'emplois</a></li>
+          <li><a href="./?page=annonces">Annonces</a></li>
+          <li><a href="./?page=profil">profil</a></li>
+          <!-- Exemple de bouton panier -->
+<button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#cartModal">
+  Voir le panier
+</button>
+
           <li>
             <a class="nav-link" href="./?page=login"><button class="btn rounded-5 btn-outline-success fw-bold">Se Connecter</button></a>
           </li>
